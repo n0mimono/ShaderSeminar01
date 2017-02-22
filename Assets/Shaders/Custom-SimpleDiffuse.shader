@@ -41,7 +41,7 @@
         half3 lightDir = normalize(_WorldSpaceLightPos0.xyz);
         half NdotL = max(0, dot(normalDir, lightDir));
         half diffuse = NdotL * 0.5 + 0.5;
-
+        return float4(float3(1,1,1) * diffuse, 1);
         fixed4 col = tex2D(_MainTex, i.uv);
         return col * _Tint * diffuse;
       }
