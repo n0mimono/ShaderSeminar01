@@ -2,6 +2,10 @@
 
 Forge your shaders.
 
+<img src="https://raw.githubusercontent.com/n0mimono/ShaderSeminar01/master/Screenshots/ss02.png" width="640">
+
+<img src="https://raw.githubusercontent.com/n0mimono/ShaderSeminar01/master/Screenshots/ss01.png" width="640">
+
 ---
 
 # License
